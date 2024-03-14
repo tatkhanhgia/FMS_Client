@@ -1,0 +1,11 @@
+fmsclient\object\Constant.class
+fmsclient\FMSClient.class
+fmsclient\HTTPUtils$MySSLSocketFactory$2.class
+fmsclient\object\FileInfomation.class
+fmsclient\HTTPUtils$ContentType.class
+fmsclient\HTTPUtils$MySSLSocket.class
+fmsclient\HTTPUtils$MySSLSocketFactory$1.class
+fmsclient\object\Response.class
+fmsclient\HTTPUtils.class
+fmsclient\HTTPUtils$MySSLSocketFactory.class
+fmsclient\HttpResponse.class
