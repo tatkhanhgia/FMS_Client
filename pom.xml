@@ -25,7 +25,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <exec.mainClass>com.mycompany.fmsclient_maven.FMSClient_Maven</exec.mainClass>
     </properties>
-<!--    <profiles>
+    <!--    <profiles>
         <profile>
             <id>release</id>
             <properties>
@@ -35,27 +35,28 @@
         </profile>
     </profiles>-->
     <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.6</version>
-            <executions>
-                <execution>
-                    <id>0550E24B6FC8A9363DC56FF0921E54DE2ACD90B3</id>
-                    <phase>T@mic@8x</phase>
-                    <goals>
-                        <goal>sign</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
-    </plugins>
-</build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>0550E24B6FC8A9363DC56FF0921E54DE2ACD90B3</id>
+                        <phase>T@mic@8x</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
     <distributionManagement>
         <repository>
-            <id>central</id>
-            <url>https://repo1.maven.org/maven2/</url>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/tatkhanhgia/FMS_Client</url>
         </repository>
     </distributionManagement>
 </project>
